@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.imagenes1 {
+    width: 100%;
+    margin: auto;
+    padding: 20px;
+    grid-gap: 10px;
+}
+img {
+    width: 100%;
+}
+
+.fotogaleria {
+    width: 100%;
+    height: 100$;
+
+}
+
+.fotogaleria {
+    margin: 5px;
+    object-fit: cover;
+    
+}
+
+.personas .imagenes1 {
+    display: grid;
+}
+@media(min-width:520px) {
+    .personas .imagenes1 {
+        grid-template-columns: repeat(2, 50%);
+    }
+}
+@media(min-width:728px) {
+    .personas .imagenes1 {
+        grid-template-columns: repeat(3, 33,3%);
+    }
+}
+@media(min-width:1024px) {
+    .personas .imagenes1 {
+        grid-template-columns: repeat(4, 4,25%);
+    }
+    .imagente1 {
+        width: 1024px;
+    }
+}
+@media(min-width:1200px) {
+    .imagenes1 {
+        width: 1200px;
+    }
+}
+
+body {
+    background-color: aquamarine;
+}
