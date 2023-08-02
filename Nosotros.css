@@ -44,3 +44,15 @@ nav a{
 nav a:hover{
     color: black
 }
+
+.nosotros {
+    text-align: center;
+    color: white;
+    text-transform: uppercase;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    background-color: black;
+    
+}

@@ -7,6 +7,7 @@ body {
     background-image: url("img/descarga.jpeg");
     background-size: cover;
     font-family: sans-serif;
+    color: white;
 }
 a {
     text-decoration: none;
@@ -44,3 +45,18 @@ nav a:hover{
     color: black
 }
 
+.sexo {
+    color: white;
+}
+
+.saquesuturno {
+    font-size:larger
+}
+
+@media (max-width: 9000px) {
+    .mail {
+        grid-template-areas: 
+        "form-floating mb-3"
+        "form-floating"
+    }
+}
