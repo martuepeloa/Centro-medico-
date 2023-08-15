@@ -1,13 +1,14 @@
-* {
+*{
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
+    border: 0;
+    font-size: 100;
 }
+
 body {
     background-image: url("img/descarga.jpeg");
     background-size: cover;
     font-family: sans-serif;
-    color: white;
 }
 a {
     text-decoration: none;
@@ -25,8 +26,6 @@ header {
 .logo {
     display: flex;
     align-items: center;
-    text-decoration: none;
-    color: black;
 }
 .logo img {
     height: 50px;
@@ -37,17 +36,14 @@ header {
 nav a{
     font-weight: 600;
     padding-right: 10px;
-    text-decoration: none;
-    color: black;
 }
 
 nav a:hover{
     color: black
 }
 
-.mapa {
-    width:20px;
-    height:40px;
+h1 {
+    color: white;
 }
 .pie-pagina{
     width: 100%;
@@ -87,3 +83,4 @@ nav a:hover{
 .caja{
     background-color: red;
 }
+

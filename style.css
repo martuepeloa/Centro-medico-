@@ -46,8 +46,15 @@ h1 {
     color: white;
 }
 .pie-pagina{
-    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    min-height: 10vh;
+    flex-direction: column;
+    position: relative;
+    height: auto;
     background-color: #0a141d;
+    transform: translateY(206px);
 }
 .pie-pagina .grupo-1{
     width: 100%;
@@ -80,6 +87,45 @@ h1 {
     margin-bottom: 10px;
 }
 .caja{
-    background-color: red;
+    background-color: rgb(130, 132, 238);
 }
 
+/* @media screen and (max-width:800px) {
+    .pie-pagina .grupo-1{
+        width: 100%;
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap: 50px;
+        padding: 45px 0px;
+    
+    }
+} */
+
+.video {
+    transform: translateY(80px);
+}
+.Caja{
+    transform: translateY(15px);
+}
+
+/* @media (max-width: 767px) {
+    .caja {
+        display: none;
+    }
+    
+}
+@media (min-width: 991px) {
+    .caja {
+        display: none;
+    }
+    
+} */
+
+@media screen and (max-width: 800px) {
+    .caja {
+        width: 100px;
+
+    }
+    .video {
+        width: 100%;
+    }
+}
