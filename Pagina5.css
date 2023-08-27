@@ -101,7 +101,7 @@ header {
 }
 
 nav a{
-    font-weight: 600;
+    font-weight: 700;
     padding-right: 10px;
     text-decoration: none;
     color: black;
@@ -220,4 +220,7 @@ nav a:hover{
     #lineas:checked ~ ul{
         left: 0;
     }
+}
+ul {
+    transform: translateY(8px);
 }
