@@ -93,6 +93,14 @@ nav a:hover{
     font-size: 120%;
     background-color: #171717;
 }
+.lineas {
+    font-size: 20px;
+    color: black;
+    float: right;
+    line-height: 30px;
+    display: none;
+    transform: translateX();
+}
 @media (max-width: 858px){
     .lineas {
         display: block;

@@ -102,6 +102,14 @@ nav a:hover{
     background-color: #171717;
     text-align: center;
 }
+.lineas {
+    font-size: 20px;
+    color: black;
+    float: right;
+    line-height: 30px;
+    display: none;
+    transform: translateX();
+}
 @media (max-width: 858px){
     .lineas {
         display: block;
