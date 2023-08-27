@@ -6,6 +6,7 @@
     <title>Turnos</title>
     <link rel="stylesheet" href="../Pagina5.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <meta name="description" content="Sacá tu turno">
     <meta name="keywords" content="riñon, salud, medicina, nefrologia, cardiologia, psicologia">
 </head>
@@ -18,76 +19,47 @@
       
       
 
-      <nav class="copilado">
-        <a href="../pages/Contacto.html">Contacto</a>
-        <a href="../pages/Nosotros.html">Nosotros</a>
-        <a href="../pages/pagina4.html">Especialidades</a>
-        <a href="../pages/pagina5.html">Turnos</a>
+      <nav>
+        <ul>
+          <a class="menu" href="../pages/Contacto.html">Contacto</a>
+        <a class="menu" href="../pages/Nosotros.html">Nosotros</a>
+        <a class="menu" href="../pages/pagina4.html">Especialidades</a>
+        <a class="menu" href="../pages/pagina5.html">Turnos</a>
+        
+        </ul>
+        
+        <div class="lineas">
+          <label>
+             <i class="fas fa-bars"></i>
+          </label>
+         
+         </div>
+
       </nav>
 
 </header>
-<style>
-    body {
-        background-color: aquamarine;
-    }
-</style>
-<body>
-    <h1 CLASS="saquesuturno">SAQUE SU TURNO</h1>
-    <main class="responsive">
-        
-          
-<div class="mail">
-    <div class="form-floating mb-3">
-        <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
-        <label for="floatingInput">Email</label>
-      </div>
-      <div class="form-floating">
-        <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
-        <label for="floatingPassword">Crear contraseña</label>
-      </div>
+<div>
+  <h1 class="titulo">TURNOS</h1>
+  
 </div>
-    
-<form>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="style.css">
+  <title>Formulario Registro</title>
+</head>
+<body>
+  <section class="form-register">
+    <h4>Formulario Registro</h4>
+    <input class="controls" type="text" name="nombres" id="nombres" placeholder="Ingrese su Nombre">
+    <input class="controls" type="text" name="apellidos" id="apellidos" placeholder="Ingrese su Apellido">
+    <input class="controls" type="email" name="correo" id="correo" placeholder="Ingrese su Correo">
+    <input class="controls" type="password" name="correo" id="correo" placeholder="Ingrese su Contraseña">
+    <p>Estoy de acuerdo con <a href="#">Terminos y Condiciones</a></p>
+    <input class="botons" type="submit" value="Registrar">
+    <p><a href="#">¿Ya tengo Cuenta?</a></p>
+  </section>
 
-    <div>
-        <h2 class="sexo">Sexo</h2>
-        <input type="checkbox" id="Femenino"> <label for="Femenino">Femenino</label>
-        <input type="checkbox" id="Masculino"> <label for="Masculino">Masculino</label>
-        <input type="checkbox" id="No binario"> <label for="No binario">No binario</label>
-    </div>
-
-    <input type="submit" value="Reservar turno">
-    <Input type="reset" value="Resetear">
-
-</form>
-
-    </main>
-    <footer class="pie-pagina">
-
-        <div class="grupo-1">
-  
-          <div class="box">
-              <figure>
-                <a href="#">
-                  <img src="../img/fede.jpg" alt="Logo de la pagina">
-  
-                </a>
-              </figure>
-          </div>
-  
-          <div class="box">
-            <h2 class="">SOBRE NOSOTROS</h2>
-            <P>Somos un centro medico que ofrece atención de patologías renales, con un equipo de nefrología, cardiología, urología, diabetología, estudios por imágenes y nutrición.</P>
-          
-  
-        </div>
-  
-  
-      </footer>
-  
- 
-    
-    
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
 </body>
 </html>
