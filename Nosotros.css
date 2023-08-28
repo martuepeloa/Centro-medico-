@@ -52,17 +52,16 @@ nav a:hover{
     position: absolute;
     left: 50%;
     top: 50%;
-    transform: translateX(-50%) translateY(70%);
-    background-color: black;
-
-    
+    transform: translateX(-98%) translateY(50%); 
 }
+
 
 .pie-pagina{
     width: 100%;
     background-color: #0a141d;
     transform: translateY(557px);
 }
+
 .pie-pagina .grupo-1{
     width: 100%;
     max-width: 1200px;
@@ -73,6 +72,7 @@ nav a:hover{
     padding: 45px 0px;
 
 }
+
 .pie-pagina .grupo-1 .box figure{
     width: 100%;
     height: 100%;
@@ -80,28 +80,34 @@ nav a:hover{
     justify-content: center;
     align-items: center;
 }
+
 .pie-pagina .grupo-1 .box figure img{
     width: 150px;
 
 }
+
 .pie-pagina .grupo-1 .box h2{
     color: white;
     margin-bottom: 25px;
     font-size: 20px;
 }
+
 .pie-pagina .grupo-1 .box p{
     color: white;
     margin-bottom: 10px;
 }
+
 .caja{
     background-color: red;
 }
+
 .titulo {
     margin-bottom: 40px;
     font-size: 250%;
     background-color: #171717;
     text-align: center;
 }
+
 .lineas {
     font-size: 20px;
     color: black;
@@ -110,6 +116,15 @@ nav a:hover{
     display: none;
     transform: translateX();
 }
+
+.titulo1 {
+    text-align: center;
+}
+.medicos {
+    height: 450px;
+    transform: translateX(170%) translateY(8%);
+}
+
 @media (max-width: 858px){
     .lineas {
         display: block;
@@ -140,5 +155,11 @@ nav a:hover{
     }
     #lineas:checked ~ ul{
         left: 0;
+    }
+    .nosotros {
+        transform: translateX(-200px) translateY(110px);
+    }
+    .medicos {
+        transform: translateX(13%) translateY(100%);
     }
 }
