@@ -189,7 +189,7 @@ nav a:hover{
     .redess {
         display: flex;
         flex-direction: column;
-        transform: translateX(46%);
+        transform: translateX(48%);
         justify-content: space-evenly;
     }
     
