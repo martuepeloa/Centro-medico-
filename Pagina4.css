@@ -52,6 +52,9 @@ nav a:hover{
 img {
     width: 100%;
 }
+.nutricion {
+    transform: translateY(1%);
+}
 
 /* .fotogaleria {
     width: 100%;
@@ -100,6 +103,9 @@ body {
     font-size: large;
     background-color: white;
 
+}
+.nutricionismo {
+    transform: translateY(33%);
 }
 .pie-pagina{
     display: flex;
