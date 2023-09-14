@@ -163,9 +163,9 @@ h1 {
     }
     
     .videoo {
-        display: block;
-        width: 100%;
-        width: auto;
+        display: flex;
+        
+        
     }
 
     nav ul menu{
@@ -189,4 +189,17 @@ h1 {
         left: 0;
     }
     
+}
+@media (max-width: 400px) {
+    .videoo {
+        display: flex;
+    }
+    .titulo {
+        display: flex;
+    }
+    
+    .menu  {
+        display: flex;
+    }
+
 }

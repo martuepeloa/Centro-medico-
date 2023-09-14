@@ -161,9 +161,8 @@ nav a:hover{
         transform: translateX(-200px) translateY(110px);
     }
     .medicos {
-        transform: translateX(13%) translateY(100%);
-        width: 100%;
-        width: auto;
+        transform: translateX(13%) translateY(150%);
+        height: 300px;
     
     }
 }
