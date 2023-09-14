@@ -104,6 +104,7 @@ h1 {
 
 .video {
     transform: translateY(80px);
+    
 }
 .Caja{
     transform: translateY(15px);
@@ -163,6 +164,8 @@ h1 {
     
     .videoo {
         display: block;
+        width: 100%;
+        width: auto;
     }
 
     nav ul menu{

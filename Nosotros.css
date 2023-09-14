@@ -123,6 +123,7 @@ nav a:hover{
 .medicos {
     height: 450px;
     transform: translateX(170%) translateY(8%);
+
 }
 
 @media (max-width: 858px){
@@ -161,5 +162,8 @@ nav a:hover{
     }
     .medicos {
         transform: translateX(13%) translateY(100%);
+        width: 100%;
+        width: auto;
+    
     }
 }
